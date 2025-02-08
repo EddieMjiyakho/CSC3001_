@@ -1,0 +1,111 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation2 ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navigation2 li a {
+    text-decoration: none;
+    color: #f7f1f1;
+}
+
+/* Top section styles */
+#top-section {
+    background-color: #1b1b1b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-bar {
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: #504e4ec0;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Main content styles */
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Stylish card styles for tutors */
+.tutor-tile {
+    background-color: #070707d3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.tutor-tile:hover {
+    transform: translateY(-5px);
+}
+
+.tutor-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #f4f4f4;
+}
+
+.tutor-info p {
+    margin-bottom: 8px;
+    color: darkgray;
+}
+
+.tutor-info strong {
+    color: #fff;
+}
+
+.tutor-info a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #25d366;
+}
+
+/* Your other styles can go here */
+
+/* Tutors container styles */
+.tutors-container {
+    padding: 20px;
+}
+
+.tutor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
